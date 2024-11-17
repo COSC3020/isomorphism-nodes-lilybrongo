@@ -18,7 +18,7 @@ $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
 
-Knowing this definition $f$ must be both a one-to-one (bijection) and be considered onto. So every vertex in $V_1$ maps onto a specific vertex in $V_2$, and every vertext in $V_2$ must be the image of some vertex in $V_1$. 
+Knowing this definition $f$ must be both a one-to-one (bijection) and be considered onto. So every vertex in $V_1$ maps onto a specific vertex in $V_2$, and every vertex in $V_2$ must be the image of some vertex in $V_1$. 
 
 In order for $f$ to be bijective, the size of $V_1$ must match the size of $V_2$. So specifically $|V_1| = |V_2|$. This helps us with the analysis because if these do not equal each other then a bijection can not exist (if $|V_1| \not= |V_2|$, then no bijection $f: V_1 \rightarrow V_2$ can exists). 
 
